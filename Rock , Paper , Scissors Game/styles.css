@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.choice-container {
+    text-align: center;
+}
+
+.choice {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #eee;
+}
